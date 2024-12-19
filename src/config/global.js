@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Principios básicos de la investigación científica',
+    numeroUnidad: '2',
+    tituloUnidad: 'Formulación de Problemas y Preguntas de Investigación',
   },
   menuPrincipal: {
     menu: [
@@ -31,36 +31,36 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Introducción a la investigación científica',
+        titulo:
+          'Introducción a la identificación del problema y formulación de objetivos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: '1.1.	Definición y concepto de investigación científica',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Acordeón1.2.	Importancia de la investigación en diversas disciplinas',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Método científico',
+        titulo: 'Identificación del problema      ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Características y etapas del método científico',
+            titulo: 'Delimitación del problema de investigación',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Pregunta de investigación',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Relación entre la pregunta problema y la hipótesis del estudio',
+            hash: 't_2_3',
           },
         ],
       },
@@ -74,33 +74,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Investigación cualitativa',
+            titulo: 'Objetivo general: características y estructura',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Investigación cuantitativa',
+            titulo: 'Objetivos específicos: características y estructura',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Investigación mixta',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Tipos de investigación',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo:
-              'Aplicación de los principios de la investigación científica en diferentes campos',
-            hash: 't_3_5',
           },
         ],
       },
@@ -139,71 +120,98 @@ export default {
       },
     ],
   },
-  referencias: {
-    referencia:
-      'Medina, M., Rojas, R., y Bustamante, W. (2023). Metodología de la investigación: Técnicas e instrumentos de investigación. Instituto Universitario de Innovación Ciencia y Tecnología Inudi Perú.',
-    link: 'https://doi.org/10.35622/inudi.b.080',
-  },
+  referencias: [
+    {
+      referencia:
+        'Coronel-Carvajal, C. (2023). Los objetivos de la investigación. Revista Archivo Médico de Camagüey, 27.',
+      link: 'https://bit.ly/48z8AgY',
+    },
+    {
+      referencia:
+        'Espinoza Freire, E. E. (2018). El problema de investigación. Conrado, 14(64), 22-32.',
+      link:
+        'http://scielo.sld.cu/scielo.php?pid=S1990-86442018000400022&script=sci_arttext',
+    },
+    {
+      referencia:
+        'Maxwell, J. A. (2019). Diseño de investigación cualitativa. Editorial Gedisa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/127783',
+    },
+    {
+      referencia:
+        'Peñaloza-Carreón, J. E., Mayorga-Ponce, R. B., & Roldan-Carpio, A. (2022). Correcto uso de la Taxonomía de Bloom para desarrollar objetivos. Educación Y Salud Boletín Científico Instituto De Ciencias De La Salud Universidad Autónoma Del Estado De Hidalgo, 11(21), 63-65.',
+      link: 'https://doi.org/10.29057/icsa.v11i21.9779',
+    },
+    {
+      referencia:
+        'Sánchez-Martín, M., Pedreño Plana, M., Ponce Gea, A. I., & Navarro-Mateu, F. (2023). Y, al principio, fue la pregunta de investigación … Los formatos PICO, PECO, SPIDER y FINER. Cuadernos del Profesorado, 16(32), 126-136.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8906805',
+    },
+    {
+      referencia:
+        'Serrano, S. S., Navarro, I. P., & González, M. D. (2022). ¿Cómo hacer una revisión sistemática siguiendo el protocolo PRISMA?: Usos y estrategias fundamentales para su aplicación en el ámbito educativo a través de un caso práctico. Bordón: Revista de pedagogía, 74(3), 51-66.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8583045',
+    },
+    {
+      referencia:
+        'Yucra Quispe, T., & Bernedo Villalta, L. Z. (2020). Epistemología e Investigación Cuantitativa. IGOBERNANZA, 3(12), 107–120.',
+      link: 'https://doi.org/10.47865/igob.vol3.2020.88',
+    },
+  ],
   glosario: [
     {
-      termino: 'Enfoque cualitativo',
+      termino: 'Delimitación',
       significado:
-        'Metodología de investigación que se centra en comprender la realidad social desde una perspectiva subjetiva, recopilando datos descriptivos sobre experiencias y percepciones.',
+        'Proceso de establecer límites concretos en una investigación, definiendo su alcance espacial, temporal y conceptual.',
     },
     {
-      termino: 'Enfoque cuantitativo',
+      termino: 'FINER',
       significado:
-        'Metodología que se basa en la medición de variables y análisis estadístico para verificar teorías y establecer relaciones objetivas entre fenómenos.',
-    },
-    {
-      termino: 'Ética en investigación',
-      significado:
-        'Conjunto de principios morales que guían la conducta del investigador y establecen límites entre la actividad investigativa y la aplicación de métodos.',
-    },
-    {
-      termino: 'Evidencia empírica',
-      significado:
-        'Se refiere a la información, datos u observaciones obtenidas a través de experiencias directas, observación sistemática o experimentación controlada que se utiliza para apoyar o refutar una hipótesis, teoría o afirmación científica.',
+        'Criterios para evaluar preguntas de investigación: factible, interesante, novedoso, ético y relevante.',
     },
     {
       termino: 'Hipótesis',
       significado:
-        'Explicaciones tentativas o predicciones sobre el fenómeno estudiado que establecen relaciones entre variables y guían el diseño de la investigación.',
+        'Proposición o respuesta tentativa a la pregunta de investigación que plantea una relación anticipada entre variables.',
     },
     {
-      termino: 'Investigación científica',
+      termino: 'Metodología',
       significado:
-        'Proceso que implica la búsqueda sistemática de conocimientos mediante métodos específicos y reflexión sobre la validez de los resultados.',
+        'Conjunto de procedimientos y técnicas que se aplican de manera sistemática durante el proceso de investigación.',
     },
     {
-      termino: 'Investigación mixta',
-      significado:
-        'Enfoque metodológico que combina elementos cualitativos y cuantitativos para obtener una comprensión más completa de los fenómenos estudiados.',
+      termino: 'Objetivo general',
+      significado: 'Meta principal que resume el propósito global del estudio.',
     },
     {
-      termino: 'Método científico',
+      termino: 'Objetivos específicos',
       significado:
-        'Conjunto de principios y reglas sistemáticas que guían el proceso investigativo, desde la identificación de un problema hasta la comunicación de resultados.',
+        'Acciones detalladas que desglosan el objetivo general en partes manejables.',
     },
     {
-      termino: 'Objetividad',
+      termino: 'PICOT',
       significado:
-        'Principio que busca eliminar sesgos personales en la investigación y mantener una perspectiva neutral en la recolección y análisis de datos.',
+        'Formato para estructurar preguntas de investigación que considera población, intervención, comparación, resultado (outcome) y tiempo.',
     },
     {
-      termino: 'Reproducibilidad',
+      termino: 'Pregunta de investigación',
       significado:
-        'Característica que permite que los resultados de una investigación puedan ser replicados por otros investigadores bajo condiciones similares.',
+        'Interrogante precisa que actúa como eje central y guía todo el proceso investigativo.',
     },
     {
-      termino: 'Sistematicidad',
+      termino: 'Problema de investigación',
       significado:
-        'Principio que implica seguir un orden lógico y estructurado en el proceso de investigación.',
+        'Vacío en el conocimiento o discrepancia entre la teoría y la práctica que requiere ser estudiado de manera sistemática.',
     },
     {
-      termino: 'Verificabilidad',
+      termino: 'Taxonomía de Bloom',
       significado:
-        'Principio que establece que los resultados de una investigación deben poder ser comprobados mediante evidencia empírica.',
+        'Sistema que clasifica las habilidades cognitivas en seis niveles ascendentes: conocimiento, comprensión, aplicación, análisis, síntesis y evaluación, que pueden ser utilizados en la formulación de objetivos educativos/investigativos.',
+    },
+    {
+      termino: 'Variables',
+      significado:
+        'Elementos o características que son objeto de estudio y medición en una investigación.',
     },
   ],
   complementario: [

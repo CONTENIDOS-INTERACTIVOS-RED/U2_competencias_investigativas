@@ -3,227 +3,217 @@
   BannerInterno(:subTitulo="'3. Enfoques de investigación'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-4 Los enfoques de investigación son estrategias generales que un investigador puede adoptar para abordar un fenómeno o problema (Arias y Covinos, 2021). Estos enfoques guían decisiones clave sobre la recopilación, análisis e interpretación de datos y afectan directamente el diseño de la investigación. A continuación, se describen las características de los enfoques más comunes según Fresno Chávez (2019):
+    .bg-fondo-1.bg-full-width.pb-5
+      .px-5.pb-md-3.py-4
+        p.mb-4 Los objetivos de investigación son elementos fundamentales que orientan y delimitan el propósito de cualquier estudio académico. Su correcta formulación garantiza que el proceso investigativo sea coherente, organizado y enfocado hacia resultados específicos.
+        .row
+          .col-12.col-md-10.mx-auto
+            .row.mb-0.justify-content-center 
+              .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-33.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Propósito de los objetivos
+                  p.px-1.text-small.mb-0.d-flex.text-center Establecen metas claras que guían el desarrollo del estudio, traduciendo el problema de investigación en términos específicos y alcanzables.
+              .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-34.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Importancia en la investigación	
+                  p.px-1.text-small.mb-0.d-flex.text-center Facilitan el diseño de un plan metodológico adecuado, evalúan la relevancia de actividades y estrategias, y aseguran la coherencia en la ejecución del estudio.
+
+    h2 Estructura y características de los objetivos
+    p.mb-4 Para que los objetivos cumplan su función, deben estar formulados con precisión, siguiendo ciertas características clave que aseguren su claridad y aplicabilidad.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-morado.p-4.mb-4
+          div.d-flex.mb-4
+            img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Especificidad.</strong> Los objetivos deben estar claramente definidos, sin ambigüedades.
+
+          div.d-flex.mb-4
+            img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Alcanzabilidad.</strong> Deben ser realistas, considerando los recursos y el tiempo disponibles.
+          div.d-flex.mb-4
+            img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Relevancia.</strong> Deben alinearse con el problema de investigación y su contexto.
+          div.d-flex.mb-4
+            img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Medibilidad.</strong> Permitir evaluar el grado de cumplimiento al final del estudio.
+          div.d-flex.mb-4
+            img.mt-2.me-2.d-flex.align-self-start(style="width: 15px" src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Coherencia.</strong> El objetivo general y los específicos deben guardar una relación lógica y complementaria.
+        span
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+
+    .bg-fondo-1.bg-full-width.pb-5
+      .px-5.pb-md-3.py-4
+        .row
+          h2 Uso de herramientas para la formulación de objetivos
+          p.mb-4 El uso de marcos conceptuales como la taxonomía de Bloom permite organizar y definir objetivos en niveles cognitivos, asegurando que sean apropiados para el alcance del estudio.
+          .col-12.col-md-10.mx-auto
+            .row.mb-0.justify-content-center 
+              .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Taxonomía de Bloom
+                  p.px-1.text-small.mb-0.d-flex.text-center Ayuda a clasificar objetivos en niveles cognitivos (conocimiento, comprensión, aplicación, análisis, síntesis y evaluación).
+              .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-37.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Matrices de planeación
+                  p.px-1.text-small.mb-0.d-flex.text-center Facilitan la relación entre los objetivos planteados y las actividades a realizar.
+
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 Los objetivos no solo estructuran el proceso investigativo, sino que también actúan como una brújula que guía al investigador hacia la solución del problema planteado, garantizando la relevancia y efectividad del estudio.
+        .bg-morado.p-4
+          span La taxonomía de Bloom es un modelo jerárquico que organiza las habilidades pensamiento en  niveles de complejidad creciente. Desarrollada por Benjamin Bloom y sus colaboradores en 1956, y posteriormente revisada en 2001, esta herramienta es muy útil para estructurar objetivos de investigación de manera sistemática y coherente.
+
+    p.mb-4 El desarrollo de la taxonomía incluye las acciones o los verbos que se pueden emplear de acuerdo con el nivel de complejidad o alcance que quiero lograr en el objetivo. Algunos de los más comunes son:
+
+    p.mb-3 <strong>Tabla 3.</strong>Ejemplos Taxonomía de Bloom
+    .tabla-a.mb-5
+      table
+        caption <strong>Nota.</strong> Elaboración propia a partir de Peñaloza-Carreon et. al (2022)
+        thead
+          tr
+            th.bg-rojo-3.text-center Nivel
+            th.bg-rojo-3.text-center(width="70%").borde-gris-left Verbos sugeridos 
+        tbody
+          tr
+            td.text-center.text-bold Conocimiento  
+            td.borde-gris-left Definir, enumerar, identificar, listar, nombrar, reconocer, relacionar, recordar, repetir, reproducir.
+          tr
+            td.text-center.text-bold  Comprensión
+            td.borde-gris-left Clasificar, describir, explicar, expresar, interpretar, localizar, parafrasear, predecir, resumir, traducir.
+          tr
+            td.text-center.text-bold  Aplicación
+            td.borde-gris-left Aplicar, demostrar, desarrollar, ejecutar, implementar, modificar, operar, organizar, producir, resolver.
+          tr
+            td.text-center.text-bold  Análisis
+            td.borde-gris-left Analizar, categorizar, comparar, contrastar, diferenciar, discriminar, distinguir, examinar, experimentar, investigar.
+          tr
+            td.text-center.text-bold  Síntesis
+            td.borde-gris-left Determinar, dirigir, diseñar, elaborar, elegir, ensamblar, enunciar, escribir, especificar, establecer, estructurar.
+          tr
+            td.text-center.text-bold  Evaluación
+            td.borde-gris-left Decidir, establecer, medir, probar, comparar, explicar, evaluar, experimentar.
+
     #t_3_1.titulo-segundo
       div.d-flex
         span.me-3 3.1  
-        h2 Investigación cualitativa
-
-    p.mb-4 Este enfoque, fundamentado en un paradigma que considera la realidad como subjetiva y construida a partir de vivencias y experiencias, busca comprender la realidad social desde la perspectiva de los sujetos de estudio.
-    p.mb-4 Las características principales son:
-
+        h2 Objetivo general: características y estructura
+    p.mb-4 El objetivo general de la investigación establece la meta principal del estudio y resume, en términos amplios, lo que se espera lograr. Yucra y Bernedo (2020) explican que el objetivo general siempre está directamente relacionado con la pregunta de investigación y debe expresar claramente el propósito principal del estudio. A diferencia de los objetivos específicos, el objetivo general tiene un carácter más global y abarca el alcance completo de la investigación.
+    h2 Características del objetivo general
     .row.mb-4
       .col-12.col-xl-7(data-aos="fade-right")
-        ol.lista-ol--cuadro
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 1
-            p.mb-0 La realidad social se analiza a través de representaciones e interpretaciones personales.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 2
-            p.mb-0 Enfocado en datos descriptivos y en profundidad sobre experiencias y significados.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 3
-            p.mb-0 Resultados no generalizables a toda la población, pero pueden generar conceptos generales aplicables en el campo de estudio.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 4
-            p.mb-0 Específico al contexto donde se realiza el estudio.
+        .bg-morado.p-4.mb-4
+          span El objetivo general debe ser claro, concreto y relevante. Los objetivos vagos o ambiguos pueden llevar a interpretaciones incorrectas y en consecuencia, a una investigación poco precisa. Una característica fundamental del objetivo general es su capacidad para ser alcanzable dentro de los recursos y limitaciones del investigador. No es recomendable establecer objetivos demasiado ambiciosos o idealistas, ya que pueden resultar inalcanzables o irrelevantes para el propósito del estudio.
+        span El objetivo general debe ser expresado en un lenguaje accesible y preciso, de manera que cualquier persona, independientemente de su nivel de especialización en el tema, pueda comprender el propósito de la investigación. Esto no solo ayuda a mejorar la comunicación de los resultados, sino que también facilita la evaluación y comparación de la investigación con otros estudios en el campo.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
 
+    h2 Estructura del objetivo general
+    p.mb-4 Coronel- Carvajal (2023) sugiere la siguiente estructura para el objetivo general de la investigación:
+    .row.mb-5.px-5
+      p.mb-3 <strong>Figura 4.</strong> Estructura de un objetivo 
+      img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen').mb-4
+      figcaption.mb-4 <strong>Nota.</strong> Elaboración propia a partir de Coronel- Carvajal (2023)
+      .bg-morado.p-4
+        span En el caso del objetivo general, se sugiere ubicar la acción o verbo en infinitivo en un nivel de complejidad de orden superior, según la taxonomía de Bloom.
+    
     #t_3_2.titulo-segundo
       div.d-flex
         span.me-3 3.2  
-        h2 Investigación cuantitativa
+        h2 Objetivos específicos: características y estructura
 
-    p.mb-4 La investigación cuantitativa mide variables, establece hipótesis, presenta teorías o las verifica, buscando objetividad y precisión en el análisis de datos.
-    .row.mb-4
-      .col-5.d-none.d-xl-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-7(data-aos="fade-left")
-        p.mb-4 Las características principales son: 
-        ol.lista-ol--cuadro
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 1
-            p.mb-0 Enfocada en la medición y análisis estadístico de datos.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 2
-            p.mb-0 Permite comprender el comportamiento de las variables mediante comprobación experimental.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 3
-            p.mb-0 Orientada a la predicción y la generalización de los resultados.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 4
-            p.mb-0 Asociada a la neutralidad del investigador, aunque puede incorporar supuestos o teorías.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 5
-            p.mb-0 Requiere conocimientos técnicos para manejar programas de análisis de datos.
-          li.d-flex(data-aos="fade-up")
-            .lista-ol--cuadro__vineta.bg-rojo-2
-              span 6
-            p.mb-0 Puede llevar a sobregeneralizaciones o ignorar parámetros no considerados.
-    #t_3_3.titulo-segundo
-      div.d-flex
-        span.me-3 3.3  
-        h2 Investigación mixta
-    p.mb-4 El enfoque mixto combina elementos de los enfoques cualitativo y cuantitativo, proporcionando una visión más integral y profunda de fenómenos complejos.
+    .bg-fondo-1.bg-full-width.pb-5
+      .px-5.pb-md-3.py-4
+          p.mb-4 Mientras el objetivo general define la meta principal de un estudio, los objetivos específicos descomponen esa meta en tareas concretas y detalladas, que facilitan la organización y el abordaje sistemático del problema de investigación.
+          .row
+            .col-12.col-md-10.mx-auto
+              .row.mb-0.justify-content-center 
+                .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-41.svg', style="width: 80px")
+                    p.text-bold.mb-4.text-center Definición
+                    p.px-1.text-small.mb-0.d-flex.text-center Representan sub-objetivos que detallan los pasos necesarios para alcanzar el objetivo general. 
+                .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+                  .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                    img.mx-auto.mb-4(src='@/assets/curso/unidad/img-42.svg', style="width: 80px")
+                    p.text-bold.mb-4.text-center Función principal
+                    p.px-1.text-small.mb-0.d-flex.text-center Permiten dividir el estudio en partes manejables, abordando distintos aspectos del problema de manera específica.
 
-    p.mb-4 Las características principales son:
+    h2 Características de los objetivos específicos
+    p.mb-4 Los objetivos específicos deben cumplir con ciertas características esenciales para garantizar su relevancia y utilidad dentro del proceso investigativo.
     .row.mb-4
       .col-12.col-xl-7(data-aos="fade-right")
         ol.lista-ol--cuadro
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta.bg-rojo-2
               span 1
-            p.mb-0 Integra recolección y análisis de datos numéricos y textuales.
+            p.mb-0 <strong>Precisión.</strong> Claros y específicos, evitando ambigüedades.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta.bg-rojo-2
               span 2
-            p.mb-0 Permite abordar problemas desde múltiples perspectivas, obteniendo resultados más completos.
+            p.mb-0 <strong>Medibilidad.</strong> Deben permitir evaluar su cumplimiento.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta.bg-rojo-2
               span 3
-            p.mb-0 Los datos cuantitativos aportan objetividad y generalización.
+            p.mb-0 <strong>Alcanzabilidad.</strong> Realistas, considerando recursos y limitaciones del estudio.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta.bg-rojo-2
               span 4
-            p.mb-0 Los datos cualitativos proporcionan un entendimiento más profundo de contextos y percepciones.
+            p.mb-0 <strong>Redacción </strong>operativa. Expresados en un lenguaje claro que permita identificar métodos y herramientas para alcanzarlos.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta.bg-rojo-2
               span 5
-            p.mb-0 Captura tanto el "qué" como el "por qué" de un fenómeno, superando las limitaciones de los métodos exclusivos.
+            p.mb-0 <strong>Coherencia.</strong> Alineados directamente con el objetivo general y contribuyendo a su logro.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
 
-    p.mb-4 La elección del enfoque adecuado depende del problema de investigación, los objetivos planteados y el contexto en el que se realiza el estudio.
+    h2 Estructura y relación con el objetivo general
+    p.mb-4 La estructura de los objetivos específicos debe guardar una relación directa con el objetivo general, complementándolo y desglosando en tareas más manejables.
 
-    .row.bg-morado-2.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-             
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-          img.h-100(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
-          h2.mb-4.pb-2.me-auto Ética en la investigación científica
-          p.mb-5 ¿Cómo influyen los principios éticos en la investigación científica y en la relación entre ciencia y sociedad? En el documento Ética en la investigación científica , se exploran conceptos clave como respeto, honestidad y accesibilidad, destacando su importancia en la recolección y análisis de datos. Se abordan prácticas como el consentimiento informado, la confidencialidad y la objetividad en el análisis, así como desafíos emergentes en el manejo de big data. Le invitamos a consultar el documento para reflexionar sobre la relevancia de la ética en la producción de conocimiento responsable y su impacto social.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ética en la investigación científica.pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ética en la investigación científica 
+    .row.mb-5.justify-content-center 
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Cantidad recomendada
+          p.px-1.text-small.mb-0.d-flex.text-center Entre 3 y 5 objetivos específicos para garantizar un enfoque claro y manejable.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-45.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Nivel de complejidad
+          p.px-1.text-small.mb-0.d-flex.text-center Según la Taxonomía de Bloom, deben ubicarse en el mismo nivel o en niveles inferiores al objetivo general, pero nunca superarlo.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-46.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Relación con el objetivo general
+          p.px-1.text-small.mb-0.d-flex.text-center Permiten una investigación organizada y con propósito definido, asegurando que las actividades contribuyan al logro del propósito central del estudio.
 
-    #t_3_4.titulo-segundo
-      div.d-flex
-        span.me-3 3.4  
-        h2 Tipos de investigación 
-    p.mb-4 La clasificación de los tipos de investigación refleja la evolución del pensamiento científico y las diversas aproximaciones epistemológicas en la generación de conocimiento. Este sistema permite abordar la realidad desde diferentes perspectivas, organizando los procesos según criterios específicos. A continuación, se presentan los principales tipos de investigación y sus características distintivas, enmarcadas en los paradigmas positivista, interpretativo y crítico.
-    .row.position-relative.mb-5.py-4.bg-azul.bg-full-width
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Investigación formativa
-              p.mb-4 Se centra en el desarrollo de habilidades investigativas, especialmente en entornos educativos, fortaleciendo el pensamiento científico sin priorizar resultados.
-              p.mb-1.text-bold Características: 
-              p.mb-1 ● Enfoque pedagógico.
-              p.mb-1 ● Desarrollo progresivo de competencias. 
-              p.mb-1 ● Énfasis en procesos más que en resultados.
-              p.mb-1 ● Supervisión constante.
-              p.mb-1 ● Integración teoría-práctica.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Investigación básica
-              p.mb-4 Orientada al descubrimiento de principios fundamentales, busca expandir el conocimiento teórico sin fines prácticos inmediatos.
-              p.mb-1.text-bold Características:
-              p.mb-1 ● Enfoque en fundamentos teóricos.
-              p.mb-1 ● Resultados de largo plazo. 
-              p.mb-1 ● Rigor metodológico. 
-              p.mb-1 ● Sin aplicación directa inmediata. 
-              p.mb-1 ● Contribuye al desarrollo de teorías.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Investigación aplicada
-              p.mb-4 Se enfoca en resolver problemas concretos utilizando conocimientos teóricos en contextos específicos, como la industria o la salud.
-              p.mb-1.text-bold Características:
-              p.mb-1 ● Orientación práctica.
-              p.mb-1 ● Resultados tangibles a corto o mediano plazo.
-              p.mb-1 ● Uso de teorías para resolver problemas. 
-              p.mb-1 ● Relación directa con necesidades sociales.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
+    h2 Importancia de los objetivos en la investigación
+    p.mb-4 Los objetivos de investigación son fundamentales para estructurar y dirigir el proceso investigativo, asegurando que los esfuerzos sean relevantes y coherentes.
 
-    p.mb-4 Los diferentes tipos de investigación no operan de forma aislada, sino que están interrelacionados, formando un ciclo continuo que retroalimenta el desarrollo del conocimiento.
-
+    .row.mb-0
+      .col-4.col-md-3.p-4.d-flex.justify-content-center.align-items-center.ms-auto.bg-amarillo-1(data-aos="fade-right")
+        span Objetivo general
+      .col-8.col-md-7.p-4.d-flex.align-items-center.me-auto.bg-amarillo-claro-1(data-aos="fade-left")
+        span Define la meta global y resume el propósito principal del estudio.
+    .row.mb-4
+      .col-4.col-md-3.p-4.d-flex.justify-content-center.align-items-center.ms-auto.bg-rojo-2(data-aos="fade-right")
+        span Objetivos específicos
+      .col-8.col-md-7.p-4.d-flex.justify-content-center.align-items-center.me-auto.bg-rojo(data-aos="fade-left")
+        span Detallan tareas concretas y manejables que contribuyen al logro del objetivo general, facilitando la ejecución del estudio y la interpretación de resultados.
+      
     .row.mb-5
-      .col-12.col-lg-7(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="Ciclo de conocimiento")
-            p La investigación básica genera fundamentos teóricos; la aplicada utiliza estos conocimientos para resolver problemas, y la formativa prepara nuevos investigadores para estos procesos.
-          .div(titulo="Retroalimentación")
-            p Los resultados prácticos obtenidos en la investigación aplicada informan y refinan teorías básicas, mientras que las necesidades sociales impulsan nuevas líneas de investigación.
-          .div(titulo="Impacto social")
-            p Este ciclo integrado fomenta la innovación, la formación de capital humano y el avance científico sostenible, alineado con las demandas sociales y económicas.
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
-
-    .bg-rojo.p-4.mb-4
-      span La diversificación de los tipos de investigación responde a la necesidad de abordar problemas desde perspectivas teóricas, prácticas y formativas. Esta clasificación no solo enriquece el entendimiento científico, sino que también promueve un desarrollo equilibrado, al conectar los fundamentos teóricos con las aplicaciones prácticas y la formación de nuevas generaciones de investigadores.
-
-    #t_3_5.titulo-segundo
-      div.d-flex
-        span.me-3 3.5  
-        h2 Aplicación de los principios de la investigación científica en diferentes campos
-
-    p.mb-4 Los principios fundamentales de la investigación científica (sistemático, objetivo, reproducible y verificable) se aplican de manera particular en diferentes áreas del conocimiento, adaptándose a sus características y necesidades específicas, pero sin perder el rigor que los define.
-
-    .row.position-relative.mb-5.py-4.bg-azul.bg-full-width
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Medicina
-              p.mb-4 Permiten desarrollar tratamientos seguros y confiables mediante diseños rigurosos y objetivos.
-
-              p.text-bold.mb-1 Ejemplo: 
-              span En el desarrollo de una vacuna, la sistematicidad asegura el cumplimiento adecuado de todas las fases de prueba y análisis, y la reproducibilidad garantiza que los resultados puedan replicarse en diferentes contextos para brindar seguridad.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Ciencias sociales
-              p.mb-4 Facilitan el estudio de fenómenos humanos y sociales complejos, minimizando sesgos personales y fundamentando conclusiones en datos concretos.
-
-              p.text-bold.mb-1 Ejemplo:
-              span Estudios sobre dinámicas de grupo y comportamiento humano permiten diseñar políticas públicas o programas sociales que atiendan necesidades reales de la población.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Ingeniería
-              p.mb-4 Conectan con el desarrollo de soluciones tecnológicas y materiales, asegurando estándares de calidad y seguridad.
-
-              p.text-bold.mb-1 Ejemplo:
-              span  Al diseñar un material resistente, la sistematicidad en la experimentación y la reproducibilidad de resultados garantizan su fabricación a escala y confiabilidad en aplicaciones industriales
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
-
-    p.mb-5 Independientemente del área, los principios de la investigación científica son esenciales para fundamentar estudios rigurosos. Sin embargo, la flexibilidad en su aplicación es clave para ajustarlos a las características de cada campo, manteniendo siempre el rigor y la objetividad. Esta adaptabilidad asegura que los métodos se alineen con las necesidades específicas del ámbito en el que se desarrollan las investigaciones.
-
+      .col-12.col-md-10.mx-auto.px-0(data-aos="fade-up")
+        d-flex.align-items-center
+          div.d-flex.align-items-center.bg-morado.px-3.py-4
+            img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-47.svg', alt='Texto que describa la imagen')
+            p.pe-xl-5.mb-0 Los objetivos bien formulados no solo aseguran que el estudio se mantenga enfocado y organizado, sino que también garantizan que los resultados sean aplicables y contribuyan al conocimiento en el área de investigación.
 
     .bg-full-width.border-top-9-azul
       .px-4.px-md-5.pt-5.pb-0
@@ -232,22 +222,36 @@
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202018000100305") Salazar Raymond, M. B., et al. (2018). La importancia de la ética en la investigación.
-            
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/229656") Gregorio Rojas, N. (2023). Metodología de la investigación para anteproyectos. Universidad Abierta para Adultos (UAPA).
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202020000400333") Espinoza Freire, E. E., y Calva Nagua, D. X. (2020). La ética en las investigaciones educativas.
-            
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127783") Maxwell, J. A. (2019). Diseño de investigación cualitativa. Editorial Gedisa.
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://doi.org/10.25267/Periferica.2006.i7.05") Sánchez González, M. P. (2022). Nociones básicas en materia de propiedad intelectual.
-            
+              a.text-small.text-primary(target="_blank", href="https://doi.org/10.47865/igob.vol3.2020.88") Yucra Quispe, T., & Bernedo Villalta, L. Z. (2020). Epistemología e Investigación Cuantitativa. IGOBERNANZA, 3(12), 107-120.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://bit.ly/48z8AgY") Coronel-Carvajal, C. (2023). Los objetivos de la investigación. Revista Archivo Médico de Camagüey, 27.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://doi.org/10.29057/icsa.v11i21.9779") Peñaloza-Carreón, J. E., et al. (2022). Correcto uso de la Taxonomía de Bloom para desarrollar objetivos.
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=O_DlP9wRKbg") SOCEMURP (2023). ÉTICA EN LA INVESTIGACIÓN || DEFINICIÓN E IMPORTANCIA DE LA ÉTICA [Vídeo]
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=DQlp0DvPBwU") La profe Mónica (2020). ¡Superfórmula! para redactar OBJETIVOS [Vídeo]
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=sM6HXoVUH54") CRAI Bibliotecas UPAEP (2020). Operadores booleanos y comodín [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+
 </template>
 
 <script>

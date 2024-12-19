@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La investigación científica es el proceso sistemático que utiliza principios como objetividad, reproducibilidad y verificabilidad para generar conocimiento en diversos campos. Estos principios guían desde la identificación de problemas hasta la formulación de hipótesis, recolección y análisis de datos, asegurando resultados válidos y confiables. Según el enfoque (cualitativo, cuantitativo o mixto), y el tipo (básica, aplicada, formativa), la investigación aborda fenómenos desde perspectivas teóricas y prácticas. Su flexibilidad permite adaptarse a diferentes disciplinas, como medicina, ciencias sociales e ingeniería, promoviendo avances científicos, innovación y desarrollo en la sociedad.
+              p.descripcion.mb-4 La delimitación del problema y la formulación de objetivos son fundamentales para el éxito de una investigación, ya que definen su alcance y dirección. Este proceso incluye analizar el contexto, identificar recursos y considerar limitaciones prácticas. La pregunta de investigación, estructurada mediante herramientas como PICOT o FINER, orienta las decisiones metodológicas. La taxonomía de Bloom facilita la redacción de objetivos claros y específicos, alineados con el propósito del estudio. Una adecuada delimitación asegura la relevancia, viabilidad y contribución científica del proyecto investigativo.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Quien persiste en aprender y descubrir, transforma el mundo con conocimiento.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada paso en la investigación es una oportunidad para descubrir, aprender y transformar el mundo que nos rodea.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

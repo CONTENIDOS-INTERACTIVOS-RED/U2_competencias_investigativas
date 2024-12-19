@@ -1,115 +1,135 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Introducción a la investigación científica'")
+  BannerInterno(:subTitulo="'1. Introducción a la identificación del problema y formulación de objetivos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+    .row.mb-5
+      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
+        p.mb-4 La ciencia, como campo del conocimiento humano, se fundamenta en la búsqueda de verdades mediante la rigurosa aplicación de métodos específicos. 
+        .d-flex.align-items-start.bg-morado.p-4.mb-4(data-aos="fade-right")
+          span Estos métodos consisten en reglas y procesos aprobados y validados por la comunidad científica, garantizando así la confiabilidad y consistencia de los descubrimientos. Cualquier conocimiento que no se ajuste a estas normas no puede considerarse científico, lo que subraya la importancia de su correcta aplicación.
+        p.mb-0  El éxito de cualquier investigación depende de identificar y delimitar adecuadamente el problema y de definir objetivos claros. A continuación, se explora su importancia, junto con herramientas y enfoques que facilitan este proceso crítico.
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')  
+
+    h2 Importancia de la delimitación del problema y formulación de objetivos
+    p.mb-4 La delimitación del problema y la formulación de objetivos no solo orientan la dirección de un estudio, sino que también determinan su éxito potencial. En un contexto donde el flujo de información es constante, los investigadores enfrentan el reto de distinguir fuentes confiables y relevantes para construir conocimiento válido.
+
+    .row.mb-4
+      .col-12.col-lg-10.mx-auto
+        .row.mb-4.justify-content-center
+          .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.p-3
+              img.pe-2(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
+              .d-flex.flex-column
+                p.text-bold.mb-3 Delimitación del problema
+                p.px-1.text-small.mb-0.d-flex Proceso sistemático que define los elementos esenciales y los límites del estudio.
+          .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="fade-left")
+            .custom-image-card.d-flex.p-3
+              img.pe-2(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
+              .d-flex.flex-column
+                p.text-bold.mb-3 Planteamiento de objetivos
+                p.px-1.text-small.mb-0.d-flex Guías conceptuales que establecen criterios claros para tomar decisiones técnicas y metodológicas.
+
+    h2 Elementos clave en la delimitación del problema
+    p.mb-4 La delimitación va más allá de establecer límites temporales o espaciales. Implica identificar elementos innovadores y esenciales, considerando:
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        ol.lista-ol--cuadro
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 1
+            p.mb-0 <strong>Contexto del estudio.</strong> Comprensión profunda del entorno en el que se desarrollará la investigación.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 2
+            p.mb-0 <strong>Herramientas metodológicas.</strong> Conocimiento de métodos y recursos disponibles para abordar el problema.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 3
+            p.mb-0 <strong>Limitaciones prácticas.</strong> Evaluación realista de los recursos y restricciones que podrían influir en el desarrollo del estudio.
+
+    h2 Planteamiento de objetivos: precisión intelectual
+    p.mb-4 Formular objetivos es un ejercicio que requiere claridad conceptual y un entendimiento de los recursos disponibles. Los objetivos bien definidos:
+    .row.mb-4.justify-content-center
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-7.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Claridad conceptual
+          p.px-1.text-small.mb-0.d-flex.text-center Facilita la toma de decisiones técnicas durante la investigación.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-8.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Orientación metodológica
+          p.px-1.text-small.mb-0.d-flex.text-center Establece criterios para seleccionar herramientas y técnicas adecuadas.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-9.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Guía para el análisis
+          p.px-1.text-small.mb-0.d-flex.text-center Ayuda a identificar y explorar brechas de conocimiento relevantes.
+
+    h2 Herramientas tecnológicas para la delimitación y formulación de objetivos
+    p.mb-4 La era digital ha transformado la forma de acceder y procesar información, permitiendo un manejo más eficiente de la documentación. Las herramientas clave incluyen:
     .row.mb-4
       .col-12.col-xl-7(data-aos="fade-right")
-        p.mb-4 La ciencia se puede entender como el conjunto coherente de conocimientos relativos a una determinada área de la realidad que se obtienen mediante el empleo de un método y un lenguaje adecuados. Que se obtengan conocimientos en ese ámbito implica que se realizan investigaciones y en estas se ha seguido un determinado método. La idea de ciencia está ligada a la de método. 
-        span La investigación científica es una actitud. Una actitud de compromiso existencial con la verdad, en contraposición con el escepticismo; una actitud humilde de aceptación de las propias limitaciones en el conocer real, en oposición al dogmatismo de quien no reconoce límites para saber. Es una actitud de ámbito personal e intransmisible o imitable. Es incompatible con la pura fe y con el puro interés. La ciencia se fundamenta y se lleva a cabo desde el conocimiento o desde la “ignorancia y sorpresa”, pero no puede nacer de la fe ni del puro interés.
+        ol.lista-ol--cuadro
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 1
+            p.mb-0 <strong>Bases de datos especializadas.</strong> Facilitan el acceso a fuentes confiables y relevantes.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 2
+            p.mb-0 <strong>Gestores bibliográficos.</strong> Ayudan a organizar y citar referencias de manera sistemática.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-rojo-2
+              span 3
+            p.mb-0 <strong>Software de análisis.</strong> Permite identificar tendencias y brechas en el conocimiento existente.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-
-    #t_1_1.titulo-segundo
-      div.d-flex
-        span.me-3 1.1  
-        h2 Definición y concepto de investigación científica
-    p.mb-4 La investigación científica, además de considerar la naturaleza de los objetos de estudio, incluye una reflexión sobre los métodos empleados y la validez de los resultados obtenidos. Para desarrollar este proceso, es fundamental comprender sus elementos constitutivos, que se presentan a continuación de manera estructurada.
+        img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7(data-aos="fade-left")
-        p.mb-4 A continuación, se describen los aspectos esenciales que componen la investigación científica:
-        AcordionA(tipo="b")
-          .div(titulo="Objeto o fenómeno de interés")
-            p Se refiere a las inquietudes que la investigación busca resolver. Incluye entidades específicas hacia las cuales se dirige el estudio. Estas propiedades suelen no ser observables directamente.
-          .div(titulo="Métodos de recolección de datos")
-            p Incluyen técnicas diseñadas para recopilar información de manera sistemática, adecuada a los objetivos y características de cada investigación. Ejemplos: encuestas, entrevistas y experimentos.
-          .div(titulo="Análisis de datos")
-            p Proceso que organiza, interpreta y da sentido a los datos recopilados para extraer conclusiones significativas y fundamentadas.
-          .div(titulo="Validez y confiabilidad")
-            p Garantizan que los resultados sean precisos, relevantes y replicables, permitiendo su aplicación en contextos similares.
-
-    .row.mb-4
-      .col-10.mx-auto
-        .bg-rojo.p-4
-          span Estos elementos garantizan un desarrollo riguroso del proceso investigativo, asegurando la obtención de conclusiones fundamentadas y útiles.
-
-    #t_1_2.titulo-segundo
-      div.d-flex
-        span.me-3 1.2  
-        h2 Importancia de la investigación en diversas disciplinas
-
-    p.mb-4 La investigación es esencial en todas las áreas del conocimiento. Desde las ciencias experimentales hasta las ciencias sociales, proporciona herramientas para explorar, explicar y aplicar conceptos clave. Su impacto abarca desde descubrimientos innovadores hasta el diseño de soluciones prácticas.
-
-    .row.mb-4
-      ImagenInfografica.color-secundario.mb-5.d-md-none.col-10.mx-auto
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
-
-        .tarjeta.bg-rojo.p-4(x="90%" y="10.5%" numero="+")
-          .h5.mb-2 Ciencias experimentales
-          p Desarrollo de nuevos medicamentos, tecnologías avanzadas y soluciones ambientales mediante la experimentación y observación rigurosas.
-        .tarjeta.bg-rojo.p-4(x="10%" y="30%" numero="+")
-          .h5.mb-2 Ciencias sociales
-          p Análisis del comportamiento humano, diseño de políticas públicas, comprensión de fenómenos sociales y culturales.
-        .tarjeta.bg-rojo.p-4(x="86%" y="50%" numero="+")
-          .h5.mb-2 Matemáticas
-          p Creación y validación de teorías abstractas aplicables en campos como la física, la economía y la informática.
-        .tarjeta.bg-rojo.p-4(x="11%" y="69.7%" numero="+")
-          .h5.mb-2 Medicina
-          p Mejora de la prevención, diagnóstico y tratamiento de enfermedades a través de investigaciones clínicas y epidemiológicas.
-        .tarjeta.bg-rojo.p-4(x="80%" y="89.5%" numero="+")
-          .h5.mb-2 Educación
-          p Innovación en métodos pedagógicos, desarrollo curricular y herramientas para fomentar aprendizajes más efectivos.
-    ImagenInfografica.color-secundario.mb-5.d-none.d-md-block
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-rojo.p-4(x="10.5%" y="85%" numero="+")
-        .h5.mb-2 Ciencias experimentales
-        p Desarrollo de nuevos medicamentos, tecnologías avanzadas y soluciones ambientales mediante la experimentación y observación rigurosas.
-      .tarjeta.bg-rojo.p-4(x="30.3%" y="19%" numero="+")
-        .h5.mb-2 Ciencias sociales
-        p Análisis del comportamiento humano, diseño de políticas públicas, comprensión de fenómenos sociales y culturales.
-      .tarjeta.bg-rojo.p-4(x="50%" y="72%" numero="+")
-        .h5.mb-2 Matemáticas
-        p Creación y validación de teorías abstractas aplicables en campos como la física, la economía y la informática.
-      .tarjeta.bg-rojo.p-4(x="69.6%" y="27.3%" numero="+")
-        .h5.mb-2 Medicina
-        p Mejora de la prevención, diagnóstico y tratamiento de enfermedades a través de investigaciones clínicas y epidemiológicas.
-      .tarjeta.bg-rojo.p-4(x="89.4%" y="72%" numero="+")
-        .h5.mb-2 Educación
-        p Innovación en métodos pedagógicos, desarrollo curricular y herramientas para fomentar aprendizajes más efectivos.
-
-    .row.mb-5
-      .col-10.mx-auto
-        .bg-morado.p-4
-          span La investigación fomenta el pensamiento crítico, la innovación y el desarrollo de conocimientos que benefician tanto a la comunidad científica como a la sociedad en general.
+      .col-12.col-md-10.mx-auto
+        .row.mb-4
+          .d-flex.align-items-center
+            div.d-flex.align-items-center.bg-morado.px-3.py-4
+              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-11.svg', alt='Texto que describa la imagen')
+              p.pe-xl-5.mb-0 La delimitación del problema y el planteamiento de objetivos constituyen la base del proceso investigativo, estableciendo un marco claro para generar conocimiento significativo. La precisión y claridad en estas etapas iniciales no solo facilitan el desarrollo de la investigación, sino que también garantizan la relevancia y aplicabilidad de los resultados, contribuyendo al avance científico y a la solución de problemas específicos.
 
     .bg-full-width.border-top-9-azul
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
-        
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://doi.org/10.31876/is.v3i2.5") Chinche Duicela, J., Ramón Pozo, J., y López Aguirre, J. F. (2020). El Método Científico: Análisis de la literatura. Revista Imaginario Social, 3(2).
-            
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/229656") Gregorio Rojas, N. (2023). Metodología de la investigación para anteproyectos. Universidad Abierta para Adultos (UAPA).
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://doi.org/10.35383/educare.v8i1.397") Campos Olazabal, P. J. (2020). La importancia de la investigación formativa como estrategia de aprendizaje. Educare Et Comunicare.
-            
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127783") Maxwell, J. A. (2019). Diseño de investigación cualitativa. Editorial Gedisa.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="http://scielo.sld.cu/scielo.php?pid=S1990-86442018000400022&script=sci_arttext") Espinoza Freire, E. E. (2018). El problema de investigación. Conrado, 14(64), 22-32.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/articulo?codigo=8583045") Serrano, S. S., Navarro, I. P., & González, M. D. (2022). ¿Cómo hacer una revisión sistemática siguiendo el protocolo PRISMA?
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=xPjRiNPu038") SFPIE UV (2020). La investigación y su importancia. Inversión en I+D [Vídeo]
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=NgIG029_IM4") Universidad Continental (2019). El problema de la investigación [Vídeo]
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=sM6HXoVUH54") CRAI Bibliotecas UPAEP (2020). Operadores booleanos y comodín [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 
 </template>

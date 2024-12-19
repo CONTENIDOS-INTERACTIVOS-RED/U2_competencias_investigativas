@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La investigación científica impulsa el conocimiento mediante la aplicación rigurosa del método científico, que incluye la observación, formulación de hipótesis, recolección y análisis de datos, y verificación para generar teorías válidas. Sus enfoques principales son cualitativo, cuantitativo y mixto, seleccionados según el problema y los objetivos del estudio. Este proceso, esencial en todas las disciplinas, debe seguir principios éticos que garanticen integridad y transparencia. A través de métodos estructurados y responsables, la investigación científica permite resolver problemas complejos y desarrollar teorías sólidas.
+    p.mb-4.mb-md-5 La investigación científica es un proceso sistemático que requiere una cuidadosa planificación y estructuración desde sus etapas iniciales. La identificación y delimitación del problema, junto con la formulación de objetivos, constituyen elementos fundamentales que determinan el éxito de cualquier estudio académico.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
