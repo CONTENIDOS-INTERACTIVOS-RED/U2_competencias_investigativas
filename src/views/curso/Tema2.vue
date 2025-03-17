@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Método científico'")
+  BannerInterno(:subTitulo="'2. Identificación del problema'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-4
@@ -71,8 +71,17 @@
         p.mb-4 La utilización de estas herramientas permite afinar la búsqueda de información y asegurar que las fuentes consultadas sean pertinentes y de alta calidad. Además, facilitan la identificación de tendencias actuales en el campo de estudio y respaldan la justificación de la investigación propuesta.
         span Es esencial que el investigador desarrolle habilidades para evaluar críticamente las fuentes y gestionar eficientemente la información recopilada. Esto incluye la capacidad de discernir entre estudios de alto impacto y aquellos que no aportan significativamente al conocimiento existente, así como el manejo adecuado de referencias bibliográficas mediante gestores como Zotero, Mendeley o EndNote.
 
+    p Para obtener resultados mucho más precisos en la búsqueda de información, se recomienda el uso de los operadores Booleanos, para saber cómo utilizarlos, consulte: CRAI Bibliotecas UPAEP (Director). (2020). Operadores booleanos y comodín
+
+    p.d-flex.my-4
+      img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+      a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=sM6HXoVUH54") CRAI Bibliotecas UPAEP (2020). Operadores booleanos y comodín [Vídeo]
+          
+
     h2 Consulta con expertos en el campo
     p.mb-4 La interacción con expertos ofrece perspectivas valiosas que pueden no estar presentes en la literatura publicada. Sin embargo, no siempre es sencillo acceder a entrevistas con autoridades académicas del campo disciplinar. Además, es importante tener en cuenta que este tipo de interacciones puede estar influenciado por sesgos personales, lo que limita su aceptación en la comunidad científica. Este paso puede incluir:
+
+    
 
     .row.mb-4
       .col-12.col-xl-7(data-aos="fade-right")
@@ -129,7 +138,7 @@
         span.me-3 2.1  
         h2 Delimitación del problema de investigación
 
-    p.mb-4 Delimitación del problema de investigación
+    p.mb-4 La delimitación del problema es un paso esencial para transformar una problemática general en un objeto de estudio específico y manejable. A continuación, se describen las dimensiones clave que deben considerarse para una delimitación adecuada:
 
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
@@ -373,7 +382,7 @@
     p.mb-4 La relación entre la pregunta de investigación y la hipótesis es esencial para garantizar la coherencia y el rigor de un estudio científico. Ambos elementos son fundamentales en el proceso de formulación del problema y la metodología de investigación.
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/CKt0g0FfFZs" title="Investigación e hipótesis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     .bg-morado.p-4.mb-5
       span Esta relación asegura la coherencia metodológica del estudio al permitir que el investigador defina los métodos estadísticos o cualitativos adecuados para evaluar la validez de la hipótesis. Así, la conexión entre ambos elementos contribuye a la generación de un conocimiento científico sólido, confiable y aplicable.

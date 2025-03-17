@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Enfoques de investigación'")
+  BannerInterno(:subTitulo="'3. Objetivos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .bg-fondo-1.bg-full-width.pb-5
@@ -251,7 +251,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
@@ -261,6 +264,174 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Delimitación de Problemas de Investigación',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'La delimitación de un problema de investigación es un paso clave para establecer los límites y alcances de un estudio. Esta delimitación permite enfocar el problema de manera precisa y específica, evitando abarcar temas demasiado amplios o generales. ¿Cuáles son los elementos fundamentales que se deben considerar al delimitar un problema de investigación?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El tiempo, el espacio, los sujetos y las variables involucradas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Los resultados esperados, las conclusiones y las recomendaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Las hipótesis, la metodología, los sujetos y el análisis de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las citas bibliográficas, el resumen y la introducción del estudio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'Un estudiante está en el proceso de identificar y plantear un problema de investigación para su trabajo de grado, pero necesita seguir un enfoque sistemático para asegurar que su problema sea relevante. ¿Cuáles son los pasos sugeridos para identificar y plantear un problema de investigación relevante?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Consultar a un solo experto en el tema, elegir un problema basado en su sugerencia y el gusto del estudiante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Elegir un tema de su gusto, revisar la literatura, definir el contexto, identificar vacíos del conocimiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Escoger un problema amplio, no realizar ninguna revisión previa, y acotarlo en fases posteriores del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Con base en la observación propia, formular hipótesis antes de revisar la literatura o identificar áreas poco exploradas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'En el diseño de la investigación, el punto de partida y origen del estudio es el planteamiento del problema, si este contextualiza de manera óptima la situación seguramente el proyecto será exitoso ¿Cuál es la principal razón por la que es crucial que el planteamiento del problema de investigación sea claro y conciso?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Para garantizar que el estudio genere un aporte significativo sin tener en cuenta la originalidad y pertinencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para que el investigador pueda justificar fácilmente el tema ante un comité evaluador y de esta manera obtener fondos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para establecer una dirección clara para la investigación, facilitar la recolección de datos y procurar conclusiones relevantes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para impresionar a los lectores con la complejidad del tema, aunque el planteamiento no sustente datos reales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Al revisar literatura sobre aprendizaje virtual, un investigador encuentra estudios que reportan tanto beneficios significativos como impactos negativos en el rendimiento académico. ¿Qué elemento es más apropiado para abordar estas contradicciones en el planteamiento del problema?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Selección solo de los estudios más citados sin tener en cuenta las variables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Recopilación de más estudios sobre el tema así no tengan cohesión',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Descarte de los estudios contradictorios para no afectar el planteamiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Análisis de variables mediadoras y coherentes con la intención del estudio.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Desde el interés del investigador en un tema particular y la revisión de la literatura es posible identificar vacíos en el conocimiento respecto a situaciones problema en algún campo del conocimiento. No obstante, esa revisión y planteamiento del problema se debe sintetizar en:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Resultados de investigación',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Hipótesis de estudio', esCorrecta: false },
+            { id: 'c', texto: 'Objetivos de investigación', esCorrecta: false },
+            { id: 'd', texto: 'Pregunta de investigación', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
